@@ -17,7 +17,10 @@ app.get('/users', (req, res) => {
 })
 
 app.post('/users', (req, res) => {
-    const user = req.body;
+    const user = {
+        name:'Guilherme',
+        mail:'Guilherme@gmail.com'
+    };
     res.status(201).json(user)
 })
 

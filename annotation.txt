@@ -11,6 +11,19 @@ Received: 404Jest
 
 }
 
+solução : Tive apenas que criar a implementação do endpoint de criação de usuario
+
+Deve criar um usuário {
+    Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "Guilherme"
+Received: undefinedJest
+
+}
+-----
+
+solução : tive apenas que passar o usuario na implementação de criaçao de usuario , criei um object users com propriedade como name:'Guilherme ' e mail: 'Guilherme@gmail.com'
+
 
 
 
