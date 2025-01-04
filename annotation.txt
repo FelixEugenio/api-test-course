@@ -1,0 +1,17 @@
+test- deve criar um usuario
+
+http verbs --> post , get , put , patch , delete
+
+Erro : Deve criar um usuário {
+
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 201
+Received: 404Jest
+
+}
+
+
+
+
+
