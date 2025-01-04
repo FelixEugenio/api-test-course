@@ -25,6 +25,6 @@ Received: undefinedJest
 solução : tive apenas que passar o usuario na implementação de criaçao de usuario , criei um object users com propriedade como name:'Guilherme ' e mail: 'Guilherme@gmail.com'
 
 
-
+middlewares , sao funcoes que vao ser executadas durante o processamento da requisição
 
 
